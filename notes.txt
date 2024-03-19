@@ -1,0 +1,33 @@
+                            ----------- NOTES -------------
+Site ve Kaynaklar{
+    *nodejs ve proje bilgilendirme videosu:
+        https://www.youtube.com/watch?v=JQKHO9ziXxg&list=PL-Hkw4CrSVq9rjSeiozfv0EgLUXeeS8G9&index=1
+    *otomatik gitignore dosyası oluşturma sayfası:
+        https://www.toptal.com/developers/gitignore
+        
+}
+
+
+BAZI KAVRAMLAR:
+1) NODEMON:
+Nodemon, Node.js tabanlı uygulamalar geliştirirken sıkça kullanılan bir araçtır.
+Genellikle geliştirme sürecinde kullanılan bir pakettir. Nodemon, projenizdeki dosyaları izler
+ve herhangi bir değişiklik algıladığında otomatik olarak sunucuyu yeniden başlatır. Bu sayede,
+her dosya değişikliğinde manuel olarak sunucuyu yeniden başlatma ihtiyacını ortadan kaldırarak
+geliştirme sürecini daha verimli hale getirir. Nodemon, geliştirme sırasında yaşanan hataları da
+izleyerek bu hataların daha hızlı tespit edilmesini sağlar.
+
+
+PROJENİN KURULUMU:
+
+terminal kodları{
+npm init:  kullanarak github projesinin dosyalarını oluşturduk
+npm install express: sunucu kurup kullanmak için. vanilla kullanabilirdik ama bu daha kolay.
+
+node app: node server başlatmak için yazıyoruz.
+npm install -D nodemon: development dependency'de nodemonumu kuruyorum.
+}
+
+json dosyaları{
+    *scripts kısmında kendi kısayollarımı ve scriptlerimi oluşturabilirim. nodemon için start scriptini oluşturduk.
+}
